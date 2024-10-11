@@ -10,9 +10,9 @@ What does Community mean to you?
 
 # project overview
 
-For Project Two, I chose Queen’s iconic song "We Are the Champions" as it represents the core values of community of perseverance, teamwork, and shared victory. In both sports and life, success is never achieved in individually, it’s the collective effort of a group teamwork toward a common goal. The powerful lyric, "We'll keep on fighting till the end," speaks to the relentless commitment and support that teammates offer each other through adversity.
+For Project Two, I chose Queen’s iconic song "We Are the Champions" as it represents the core values of a community of perseverance, teamwork, and shared victory. In both sports and life, success is never achieved individually, it’s the collective effort of a group and teamwork toward a common goal. The powerful lyric, "We'll keep on fighting till the end," speaks to the relentless commitment and support that teammates offer each other through adversity.
 
-This resonates with me deeply because, in my own experience, community is about coming together, overcoming challenges, and celebrating achievements either big or small as a team. Through this project, I wanted to... 
+This resonates with me deeply because, in my own experience, the community is about coming together, overcoming challenges, and celebrating achievements either big or small as a team. Through this project, I wanted to... 
 that sense of belonging and accomplishment.
 
 # technical overview 
@@ -24,7 +24,7 @@ Languages Used:
 
 Animations & Transitions:
 
-- Transformations: Certain elements (such as images) have been translate, scale, rotate and skewing using CSS transformations to motion within the design
+- Transformations: Certain elements (such as images) have been translated, scaled, rotated, and skewed using CSS transformations to motion within the design
 
 Software Utilized:
 
@@ -34,9 +34,9 @@ Software Utilized:
 
 
 
-# acknowledgement 
+# acknowledgment 
 
-Here are resources to the song:
+Here are resources for the song:
 
 - “We Are the Champions” song by Queen:  
 https://www.youtube.com/watch?v=04854XqcfCY
