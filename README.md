@@ -14,6 +14,8 @@ This resonates with me deeply because, in my own experience, the community is ab
 
 # technical overview 
 
+I decided to use the Font style (Edu AU VIC WA NT Dots) in my website since it gives my website a unique, abstract, and joyful feeling, which suits the song quite nicely. 
+
 Languages Used:
 
 - HTML: Structure of the website and the placement of the text
