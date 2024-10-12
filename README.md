@@ -4,9 +4,7 @@
 
   by: Adwin Lin
 
-# title 
-
-What does Community mean to you?
+# What does Community mean to you? 
 
 # project overview
 
