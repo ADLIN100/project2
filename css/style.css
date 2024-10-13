@@ -47,21 +47,5 @@ a {
 
 #myfriends:hover {
 
-   transform: scale(2,2) translate(100px,-100px);
-
-
-}
-
-
-
-
-
-
-
-
-  
-
-
-
-
+   transform: scale(2,2), translate(100px,-100px);
 }

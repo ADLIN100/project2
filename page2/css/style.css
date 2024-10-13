@@ -36,3 +36,18 @@ h1 {
 
   padding-top: 20%;
 }
+
+a {
+  color: darkcyan;
+  text-shadow: 5px 5px #FAF3DD;
+}
+
+#fightingtilltheend {
+  transition-duration: 5s;
+
+}
+
+#fightingtilltheend:hover {
+
+   transform: scale(2,2), skew(100px,-100px);
+}

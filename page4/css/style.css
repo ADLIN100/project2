@@ -35,3 +35,19 @@ h1 {
 
   padding-top: 20%;
 }
+
+
+a {
+  color: darkcyan;
+  text-shadow: 5px 5px #FAF3DD;
+}
+
+#World {
+  transition-duration: 5s;
+
+}
+
+#World:hover {
+
+   transform: scale(2,2), translate(100px,-100px);
+}
