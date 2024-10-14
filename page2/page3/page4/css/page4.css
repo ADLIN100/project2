@@ -5,17 +5,15 @@
     box-sizing: border-box;
 }
 
-
 html {
+  background-color: rgb(250, 243, 221);
+  background-image: linear-gradient(#FFC857, #FAF3DD);
 
-    background-color: rgb(250, 243, 221);
-    background-image: linear-gradient(#FFC857, #FAF3DD);
-
-    font-family: "Edu AU VIC WA NT Dots", serif;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-   padding-right: 15px;
+  font-family: "Edu AU VIC WA NT Dots", serif;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 
   border: 1px thin solid black;
   text-align: center;
@@ -38,19 +36,18 @@ h1 {
   padding-top: 20%;
 }
 
+
 a {
   color: darkcyan;
   text-shadow: 5px 5px #FAF3DD;
 }
 
-#champions {
+#World {
   transition-duration: 5s;
 
 }
 
-#champions:hover {
+#World:hover {
 
-   transform: skew(2,2), translate(100px,-100px);
+   transform: scale(2,2), translate(100px,-100px);
 }
-
-
