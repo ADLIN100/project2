@@ -34,7 +34,7 @@ h1 {
   font-style: normal;
   text-align: center;
 
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
 a {
@@ -43,8 +43,10 @@ a {
 }
 
 #Weare {
-  transition-duration: 5s;
-
+  display: inline-block;
+  transition-duration: 4s;
+  transition: transform 0.3 ease-in-out, color 1s;
+  cursor: pointer;
 }
 
 #Weare:hover {

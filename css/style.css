@@ -30,6 +30,7 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
+  font-size: 50px;
   text-align: center;
 
   padding-top: 30%;
@@ -41,8 +42,10 @@ a {
 }
 
 #myfriends {
-  transition-duration: 5s;
-  transition: transform 0.3 ease;
+  display: inline-block;
+  transition-duration: 4s;
+  transition: transform 0.3 ease-in-out, color 1s;
+  cursor: pointer;
 
 }
 

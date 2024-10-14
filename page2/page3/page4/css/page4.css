@@ -31,9 +31,10 @@ h1 {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+  font-size: 45px;
   text-align: center;
 
-  padding-top: 20%;
+  padding-top: 30%;
 }
 
 
@@ -43,11 +44,13 @@ a {
 }
 
 #World {
-  transition-duration: 5s;
-
+  display: inline-block;
+  transition-duration: 4s;
+  transition: transform 0.3 ease-in-out, color 1s;
+  cursor: pointer;
 }
 
 #World:hover {
 
-   transform: scale(2,2), translate(100px,-100px);
+   transform: translate(100px,-100px);
 }

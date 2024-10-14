@@ -31,9 +31,10 @@ h1 {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+  font-size: 50px;
   text-align: center;
 
-  padding-top: 20%;
+  padding-top: 35%;
 }
 
 
@@ -42,12 +43,14 @@ a {
   text-shadow: 5px 5px #FAF3DD;
 }
 
-#World {
-  transition-duration: 5s;
-
+#champions {
+  display: inline-block;
+  transition-duration: 4s;
+  transition: transform 0.3 ease-in-out, color 1s;
+  cursor: pointer;
 }
 
-#World:hover {
+#champions:hover {
 
-   transform: scale(2,2), translate(100px,-100px);
+   transform: translateY(30px);
 }
