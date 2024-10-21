@@ -40,7 +40,7 @@ h1 {
 
 a {
   color: darkcyan;
-  text-shadow: 5px 5px #FAF3DD;
+  text-shadow: 5px 5px lightcyan;
 }
 
 #fightingtilltheend {
@@ -53,6 +53,22 @@ a {
 #fightingtilltheend:hover {
 
    transform: rotate(180deg);
+}
+
+#Andwellkeepon {
+  display: inline-block;
+  transition-duration: 4s;
+  transition: transform 0.5 ease-in-out;
+  color: lightcyan;
+  text-shadow: 5px 5px darkcyan;
+
+}
+
+#Andwellkeepon:hover {
+
+   transform: rotate(-180deg);
+   color: lightcyan;
+   text-shadow: 5px 5px darkcyan;
 }
 
 .confetti-container {
@@ -68,80 +84,81 @@ a {
 position: absolute;
 width: 10px;
 height: 15px;
-background-color: #FF5733;
 animation: fall linear infinite;
 }
 
 .piece1 {
-left: 10%;
-animation-duration: 3s;
-}
-
-.piece2 {
-left: 30%;
-background-color: #33FF57;
-animation-duration: 4s;
-}
-
-.piece3 {
-left: 50%;
-background-color: #3357FF;
-animation-duration: 5s;
-}
-
-.piece4 {
-left: 70%;
-background-color: #FFC300;
-animation-duration: 6s;
-}
-
-.piece5 {
-left: 90%;
-background-color: #DAF7A6;
-animation-duration: 3.5s;
-}
-
-.piece6 {
-left: 80%;
-background-color: #FF33B5;
-animation-duration: 4.5s;
-}
-
-
-.piece7 {
-left: 10%;
-animation-duration: 3s;
-}
-
-.piece8 {
-left: 30%;
-background-color: #33FF57;
-animation-duration: 4s;
-}
-
-.piece9 {
-left: 50%;
-background-color: #3357FF;
-animation-duration: 5s;
-}
-
-.piece10 {
-left: 70%;
-background-color: #FFC300;
-animation-duration: 6s;
-}
-
-.piece11 {
-left: 90%;
-background-color: #DAF7A6;
-animation-duration: 3.5s;
-}
-
-.piece12 {
-left: 80%;
-background-color: #FF33B5;
-animation-duration: 4.5s;
-}
+  left: 10%;
+  background-color: red;
+  animation-duration: 5s;
+  }
+  
+  .piece2 {
+  left: 30%;
+  background-color: #33FF57;
+  animation-duration: 4s;
+  }
+  
+  .piece3 {
+  left: 50%;
+  background-color: #3357FF;
+  animation-duration: 5s;
+  }
+  
+  .piece4 {
+  left: 70%;
+  background-color: #FFC300;
+  animation-duration: 6s;
+  }
+  
+  .piece5 {
+  left: 90%;
+  background-color: #DAF7A6;
+  animation-duration: 3.5s;
+  }
+  
+  .piece6 {
+  left: 80%;
+  background-color: #FF33B5;
+  animation-duration: 4.5s;
+  }
+  
+  
+  .piece7 {
+  left: 10%;
+  background-color: white;
+  animation-duration: 4s;
+  }
+  
+  .piece8 {
+  left: 30%;
+  background-color: #33FF57;
+  animation-duration: 4.5s;
+  }
+  
+  .piece9 {
+  left: 50%;
+  background-color: lightblue;
+  animation-duration: 5s;
+  }
+  
+  .piece10 {
+  left: 70%;
+  background-color: lightsalmon;
+  animation-duration: 6s;
+  }
+  
+  .piece11 {
+  left: 90%;
+  background-color: #DAF7A6;
+  animation-duration: 3.5s;
+  }
+  
+  .piece12 {
+  left: 80%;
+  background-color: lightpink;
+  animation-duration: 4.5s;
+  }
 
 
 @keyframes fall {

@@ -45,14 +45,14 @@ a {
 
 #champions {
   display: inline-block;
-  transition-duration: 20s;
+  transition-duration: 4s;
   transition: transform 0.3 ease-in-out, color 1s;
   cursor: pointer;
 }
 
 #champions:hover {
 
-   transform: translateY(30px);
+   transform: translateY(60px)
 }
 
 .confetti-container {
@@ -68,13 +68,13 @@ a {
 position: absolute;
 width: 10px;
 height: 15px;
-background-color: #FF5733;
 animation: fall linear infinite;
 }
 
 .piece1 {
 left: 10%;
-animation-duration: 3s;
+background-color: red;
+animation-duration: 5s;
 }
 
 .piece2 {
@@ -110,24 +110,25 @@ animation-duration: 4.5s;
 
 .piece7 {
 left: 10%;
-animation-duration: 3s;
+background-color: white;
+animation-duration: 4s;
 }
 
 .piece8 {
 left: 30%;
 background-color: #33FF57;
-animation-duration: 4s;
+animation-duration: 4.5s;
 }
 
 .piece9 {
 left: 50%;
-background-color: #3357FF;
+background-color: lightblue;
 animation-duration: 5s;
 }
 
 .piece10 {
 left: 70%;
-background-color: #FFC300;
+background-color: lightsalmon;
 animation-duration: 6s;
 }
 
@@ -139,7 +140,7 @@ animation-duration: 3.5s;
 
 .piece12 {
 left: 80%;
-background-color: #FF33B5;
+background-color: lightpink;
 animation-duration: 4.5s;
 }
 
