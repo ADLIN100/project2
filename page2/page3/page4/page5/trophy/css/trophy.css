@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html {
+  
+  background-color: rgb(250, 243, 221);
+  background-image: linear-gradient(#FFC857, #FAF3DD);
+
+  font-family: "Edu AU VIC WA NT Dots", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.trophy-container {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+}
+
+.line {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap;
+    transform-origin: center;
+}
+
+.line1 { top: 10px; left: 0; }
+.line2 { top: 40px; left: 20px; }
+.line3 { top: 70px; left: 40px; }
+.line4 { top: 100px; left: 60px; }
+.line5 { top: 130px; left: 60px; }
+.line6 { top: 160px; left: 80px; }
+.line7 { top: 190px; left: 100px; }
+.line8 { top: 220px; left: 80px; }
+.line9 { top: 250px; left: 60px; }
+.line10 { top: 280px; left: 40px; }
+.line11 { top: 310px; left: 20px; }
+.line12 { top: 340px; left: 0; }
+.line13 { top: 370px; left: 10px; }
+.line14 { top: 400px; left: 0; text-decoration: underline; 
+
+}
+
+.trophy-handles {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-handle, .right-handle {
+    width: 30px;
+    height: 80px;
+    background-color: gold;
+    border-radius: 50% 50% 0 0;
+}
+
+
+
+a {
+  color: darkcyan;
+  text-shadow: 5px 5px #FAF3DD;
+}
+
+.confetti-container {
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+}
+
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    background-color: #FF5733;
+    animation: fall linear infinite;
+  }
+  
+  .piece1 {
+    left: 10%;
+    animation-duration: 3s;
+  }
+  
+  .piece2 {
+    left: 30%;
+    background-color: #33FF57;
+    animation-duration: 4s;
+  }
+  
+  .piece3 {
+    left: 50%;
+    background-color: #3357FF;
+    animation-duration: 5s;
+  }
+  
+  .piece4 {
+    left: 70%;
+    background-color: #FFC300;
+    animation-duration: 6s;
+  }
+  
+  .piece5 {
+    left: 90%;
+    background-color: #DAF7A6;
+    animation-duration: 3.5s;
+  }
+  
+  .piece6 {
+    left: 80%;
+    background-color: #FF33B5;
+    animation-duration: 4.5s;
+  }
+
+
+  .piece7 {
+    left: 10%;
+    animation-duration: 3s;
+  }
+  
+  .piece8 {
+    left: 30%;
+    background-color: #33FF57;
+    animation-duration: 4s;
+  }
+  
+  .piece9 {
+    left: 50%;
+    background-color: #3357FF;
+    animation-duration: 5s;
+  }
+  
+  .piece10 {
+    left: 70%;
+    background-color: #FFC300;
+    animation-duration: 6s;
+  }
+  
+  .piece11 {
+    left: 90%;
+    background-color: #DAF7A6;
+    animation-duration: 3.5s;
+  }
+  
+  .piece12 {
+    left: 80%;
+    background-color: #FF33B5;
+    animation-duration: 4.5s;
+  }
+  
+  
+@keyframes fall {
+    0% {
+      top: -10px;
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      top: 100vh;
+      transform: rotate(360deg);
+    }
+  }
+
