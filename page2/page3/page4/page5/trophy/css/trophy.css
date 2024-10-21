@@ -51,28 +51,11 @@ body {
 .line11 { top: 310px; left: 20px; }
 .line12 { top: 340px; left: 0; }
 .line13 { top: 370px; left: 10px; }
-.line14 { top: 400px; left: 0; text-decoration: underline; 
+.line14 { top: 400px; left: 0; text-decoration: none underline; 
 
-}
-
-.trophy-handles {
-    position: absolute;
-    top: 30px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.left-handle, .right-handle {
-    width: 30px;
-    height: 80px;
-    background-color: gold;
-    border-radius: 50% 50% 0 0;
-}
-
-
-
-a {
+ } 
+ 
+ a {
   color: darkcyan;
   text-shadow: 5px 5px #FAF3DD;
 }
