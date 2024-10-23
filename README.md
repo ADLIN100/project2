@@ -37,7 +37,7 @@ Software Utilized:
 
 Here are resources for the song:
 
-- “We Are the Champions” song by Queen:  
+- “We Are the Champions” song by Queen & Freddie Mercury:  
 https://www.youtube.com/watch?v=04854XqcfCY
 - https://genius.com Queen-we-are-the-champions-lyrics
 

@@ -22,6 +22,15 @@ body {
     position: relative;
 }
 
+a {
+  color: lightcoral;
+  text-shadow: 5px 5px white;
+  text-decoration: none;
+  position: relative;
+  font-size: 35px;
+
+}
+
 .trophy-container {
     position: relative;
     width: 400px;
@@ -31,34 +40,28 @@ body {
 
 .line {
     position: absolute;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bold;
-    color: #333;
+    color: black;
     white-space: nowrap;
     transform-origin: center;
 }
 
 .line1 { top: 10px; left: 0; }
-.line2 { top: 40px; left: 20px; }
-.line3 { top: 70px; left: 40px; }
-.line4 { top: 100px; left: 60px; }
-.line5 { top: 130px; left: 60px; }
-.line6 { top: 160px; left: 80px; }
-.line7 { top: 190px; left: 100px; }
-.line8 { top: 220px; left: 80px; }
-.line9 { top: 250px; left: 60px; }
-.line10 { top: 280px; left: 40px; }
-.line11 { top: 310px; left: 20px; }
-.line12 { top: 340px; left: 0; }
-.line13 { top: 370px; left: 10px; }
-.line14 { top: 400px; left: 0; text-decoration: none underline; 
-
- } 
- 
- a {
-  color: darkcyan;
-  text-shadow: 5px 5px #FAF3DD;
-}
+.line2 { top: 40px; left: -120px; }
+.line3 { top: 70px; left: -80px; }
+.line4 { top: 100px; left: -35px; }
+.line5 { top: 130px; left: -10px; }
+.line6 { top: 160px; left: 15px; }
+.line7 { top: 190px; left: -45px; }
+.line8 { top: 220px; left: -5px; }
+.line9 { top: 250px; left: 50px; }
+.line10 { top: 280px; left: -30px; }
+.line11 { top: 310px; left: -85px; }
+.line12 { top: 340px; left: -90; }
+.line13 { top: 370px; left: -170px; }
+.line14 { top: 400px; left: -200; }
+.line15 { top: 615px; right: 5; }
 
 .confetti-container {
       position: absolute;
@@ -162,5 +165,17 @@ body {
       top: 100vh;
       transform: rotate(360deg);
     }
+ }
+
+  #WeAreTheChampions {
+     color: lightgoldenrodyellow;
+     display: inline-block;
+     transition-duration: 0.3 ease, color 0.3 ease;
+     text-shadow: 5px 5px #FAF3DD;
   }
 
+  #WeAreTheChampions:hover {
+    transform: scale(1.5)
+   }
+
+  
