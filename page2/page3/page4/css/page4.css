@@ -9,7 +9,7 @@ html {
   background-color: rgb(250, 243, 221);
   background-image: linear-gradient(#FFC857, #FAF3DD);
 
-  font-family: "Edu AU VIC WA NT Dots", serif;
+  font-family: "Concert One", serif;
   padding-top: 5px;
   padding-bottom: 10px;
   padding-left: 15px;
@@ -40,19 +40,20 @@ h1 {
 
 a {
   color: darkcyan;
-  text-shadow: 5px 5px #FAF3DD;
+  text-shadow: 5px 5px lightcyan;
+  text-decoration: none;
 }
 
 #World {
   display: inline-block;
-  transition-duration: 4s;
+  transition-duration: 10s;
   transition: transform 0.3 ease-in-out, color 1s;
   cursor: pointer;
 }
 
 #World:hover {
 
-   transform: translate(100px,-100px);
+   transform: translateY(-350px);
 }
 
 .confetti-container {

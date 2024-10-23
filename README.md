@@ -1,6 +1,6 @@
 # project2
 
-  October 12, 2024
+  October 23, 2024
 
   by: Adwin Lin
 
@@ -40,4 +40,7 @@ Here are resources for the song:
 - “We Are the Champions” song by Queen & Freddie Mercury:  
 https://www.youtube.com/watch?v=04854XqcfCY
 - https://genius.com Queen-we-are-the-champions-lyrics
+
+- Confetti Animation by: "Web splash" 
+https://www.youtube.com/watch?v=8L0ngrNIUP4
 

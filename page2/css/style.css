@@ -9,7 +9,7 @@ html {
   background-color: rgb(250, 243, 221);
   background-image: linear-gradient(#FFC857, #FAF3DD);
 
-  font-family: "Edu AU VIC WA NT Dots", serif;
+  font-family: "Concert One", serif;
   padding-top: 5px;
   padding-bottom: 10px;
   padding-left: 15px;
@@ -40,12 +40,13 @@ h1 {
 
 a {
   color: darkcyan;
-  text-shadow: 5px 5px lightcyan;
+  text-shadow: 5px 5px  lightcyan;
+  text-decoration: none;
 }
 
 #fightingtilltheend {
   display: inline-block;
-  transition-duration: 4s;
+  transition-duration: 15s;
   transition: transform 0.5 ease-in-out;
   cursor: pointer;
 }
@@ -53,22 +54,6 @@ a {
 #fightingtilltheend:hover {
 
    transform: rotate(180deg);
-}
-
-#Andwellkeepon {
-  display: inline-block;
-  transition-duration: 4s;
-  transition: transform 0.5 ease-in-out;
-  color: lightcyan;
-  text-shadow: 5px 5px darkcyan;
-
-}
-
-#Andwellkeepon:hover {
-
-   transform: rotate(-180deg);
-   color: lightcyan;
-   text-shadow: 5px 5px darkcyan;
 }
 
 .confetti-container {

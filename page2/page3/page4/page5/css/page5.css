@@ -10,7 +10,7 @@ html {
   background-color: rgb(250, 243, 221);
   background-image: linear-gradient(#FFC857, #FAF3DD);
 
-  font-family: "Edu AU VIC WA NT Dots", serif;
+  font-family: "Concert One", serif;
   padding-top: 5px;
   padding-bottom: 10px;
   padding-left: 15px;
@@ -19,18 +19,20 @@ html {
   border: 1px thin solid black;
   text-align: center;
   text-transform: uppercase;
+  font-size: 40px;
 }
 
 body {
 
     width: 100%;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 h1 { 
 
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: normal;
   font-style: normal;
   text-align: center;
 
@@ -39,19 +41,19 @@ h1 {
 
 a {
   color: darkcyan;
-  text-shadow: 5px 5px #FAF3DD;
+  text-shadow: 5px 5px lightcyan;
+  text-decoration: none;
 }
 
 #Weare {
   display: inline-block;
-  transition-duration: 4s;
-  transition: transform 0.3 ease-in-out, color 1s;
+  transition: transform 0.4s ease-in-out, color 1s;
   cursor: pointer;
 }
 
 #Weare:hover {
 
-   transform: skew(2,2) rotate(100px,-100px);
+   transform: skew(10deg, -40deg) rotate(15deg);
 }
 
 .confetti-container {

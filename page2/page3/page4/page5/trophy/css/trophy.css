@@ -10,7 +10,7 @@ html {
   background-color: rgb(250, 243, 221);
   background-image: linear-gradient(#FFC857, #FAF3DD);
 
-  font-family: "Edu AU VIC WA NT Dots", sans-serif;
+  font-family: "Concert One", sans-serif;
 }
 
 body {
@@ -23,12 +23,11 @@ body {
 }
 
 a {
-  color: lightcoral;
-  text-shadow: 5px 5px white;
+  color: darkcyan;
+  text-shadow: 5px 5px lightcyan;
   text-decoration: none;
   position: relative;
-  font-size: 35px;
-
+  font-size: 50px;
 }
 
 .trophy-container {
@@ -58,10 +57,10 @@ a {
 .line9 { top: 250px; left: 50px; }
 .line10 { top: 280px; left: -30px; }
 .line11 { top: 310px; left: -85px; }
-.line12 { top: 340px; left: -90; }
+.line12 { top: 340px; left: -170px; }
 .line13 { top: 370px; left: -170px; }
-.line14 { top: 400px; left: -190; }
-.line15 { top: 615px; right: 5; }
+.line14 { top: 400px; left: -240px; }
+.line15 { top: 615px; right: -50; }
 
 .confetti-container {
       position: absolute;
